@@ -1,4 +1,4 @@
-let num = 100;
+/* let num = 100;
 
 function multiple(num){
     for(let i = 0; i <= num; i++){
@@ -15,4 +15,10 @@ function multiple(num){
     }
 }
 
-multiple(num);
+multiple(num); */
+
+let numbers = [1, 2, 3, 4, 2, 5, 3, 54, 4, 6];
+const numbersArr = new set(numbers);
+let result = [...numbersArr];
+console.info(result); 
+
